@@ -14,7 +14,7 @@ The goal of the project is to implement SLAM (Simultaneous Localization and Mapp
 
 ## Example
 
-The image below demonstrates 2D world, robots final pose and landmarks: <br>
+The image below demonstrates an example of the 2D world. It illustrates the robot's final pose and landmarks: <br>
 [![image](https://github.com/ChaitanyaC22/Udacity-CVND-Project3-Landmark-Detection-and-Tracking-Graph-SLAM/blob/chai_main/images/robot_world.png)](https://github.com/ChaitanyaC22/Udacity-CVND-Project3-Landmark-Detection-and-Tracking-Graph-SLAM/blob/chai_main/images/robot_world.png)
 
 ## Project Instructions
