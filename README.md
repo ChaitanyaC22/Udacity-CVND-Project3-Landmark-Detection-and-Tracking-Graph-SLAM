@@ -1,11 +1,25 @@
 # Udacity-CVND-Project3-Landmark-Detection-and-Tracking-Graph-SLAM
+
 ## Objective
+
 Implement SLAM, a robust method for tracking an object over time and mapping out its surrounding environment using elements of probability, motion models, linear algerbra.
 
 
+## About the Project
+
+The goal of the project is to implement SLAM (Simultaneous Localization and Mapping) for a 2 dimensional world! A map of an environment is created from only sensor and motion data gathered by a robot, over time. SLAM gives a way to track the location of a robot in the world in real-time and identify the locations of landmarks such as buildings, trees, rocks, and other world features. This is an active area of research in the fields of robotics and autonomous systems.
+
+*Below is an example of a 2D robot world with landmarks (purple x's) and the robot (a red 'o') located and found using only sensor and motion data collected by that robot. This is just one example for a 50x50 grid world; in your work you will likely generate a variety of these maps.*
+
+
+## Example
+
+The image demonstrate 2D world, robot pose and landmarks: <br>
+[![image](https://github.com/ChaitanyaC22/Udacity-CVND-Project3-Landmark-Detection-and-Tracking-Graph-SLAM/blob/chai_main/images/robot_world.png)](https://github.com/ChaitanyaC22/Udacity-CVND-Project3-Landmark-Detection-and-Tracking-Graph-SLAM/blob/chai_main/images/robot_world.png)
+
 ## Project Instructions
 
-The project will be broken up into three Python notebooks; the first two are for exploration of provided code, and a review of SLAM architectures, **only Notebook 3 and the `robot_class.py` file will be graded**:
+The project is broken up into three Python notebooks.
 
 **Notebook 1** : Robot Moving and Sensing
 
@@ -13,14 +27,4 @@ The project will be broken up into three Python notebooks; the first two are for
 
 **Notebook 3** : Landmark Detection and Tracking
 
-You can find these notebooks in the Udacity workspace that appears in the concept titled **Project: Landmark Detection & Tracking**. This workspace provides a Jupyter notebook server directly in your browser.
-
-You can also choose to complete this project in your own local repository, and you can find all of the project files in this [GitHub repository](https://github.com/udacity/P3_Implement_SLAM). Note that while you are _allowed_ to complete this project on your local computer, you are strongly encouraged to complete the project from the workspace.
-
-## Evaluation
-
-Your project will be reviewed by a Udacity reviewer against the Landmark Detection & Tracking project [rubric](https://review.udacity.com/#!/rubrics/1428/view). Review this rubric thoroughly, and self-evaluate your project before submission. All criteria found in the rubric must meet specifications for you to pass.
-
-## Zip file submission
-
-If you are submitting this project from a workspace or as a zip file, it is recommended that you follow the instructions in the final workspace notebook to compress your project files and make sure your submission is not too large. You are _only_ graded on Notebook 3, and the file `robot_class.py`.
+In this project, we have implemented SLAM in stages after understanding each and every step in the process. Complete robot sense(), move() and other supplemental functions can be located in the `robot_class.py` file. 
